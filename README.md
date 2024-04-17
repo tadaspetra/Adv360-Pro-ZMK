@@ -14,6 +14,8 @@ my process for updating the keyboard.
 11. drag right uf2 into the drive file
 12. disconnect and click mod to make sure they are connected
 
+go to this site for all the key references: https://zmk.dev/docs/codes
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
