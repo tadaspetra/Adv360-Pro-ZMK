@@ -1,5 +1,19 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
+my process for updating the keyboard.
+1. go to this site: https://kinesiscorporation.github.io/Adv360-Pro-GUI
+2. update to whatever new config you want.
+3. click the commit changes button
+4. go to github actions and wait for the firmware to be built
+5. download and unzip
+6. connect left, then turn off right
+7. click the bootloader button twice until blue flashes
+8. drag left uf2 into the drive file
+9. disconnect and turn on and plug in right
+10. click the bootloader button twice until blue flashes
+11. drag right uf2 into the drive file
+12. disconnect and click mod to make sure they are connected
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
