@@ -1,3 +1,39 @@
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp V>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp C>;
+};
+macro_zero: macro_zero{
+compatible = "zmk,behavior-macro";
+label = "macro_zero";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp NUMBER_0>;
+};
+macro_one: macro_one{
+compatible = "zmk,behavior-macro";
+label = "macro_one";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp NUMBER_1>;
+};
+macro_two: macro_two{
+compatible = "zmk,behavior-macro";
+label = "macro_two";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp NUMBER_2>;
+};
+macro_three: macro_three{
+compatible = "zmk,behavior-macro";
+label = "macro_three";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp NUMBER_3>;
+};
 macro_four: macro_four{
 compatible = "zmk,behavior-macro";
 label = "macro_four";
