@@ -1,3 +1,15 @@
+macro_four: macro_four{
+compatible = "zmk,behavior-macro";
+label = "macro_four";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp NUMBER_4>;
+};
+macro_close: macro_close{
+compatible = "zmk,behavior-macro";
+label = "macro_close";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp LEFT_SHIFT>, <&kp B>;
+};
 macro_file: macro_file{
 compatible = "zmk,behavior-macro";
 label = "macro_file";
