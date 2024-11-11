@@ -1,3 +1,15 @@
+macro_prompter_up: macro_prompter_up{
+compatible = "zmk,behavior-macro";
+label = "macro_prompter_up";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>, <&kp PAGE_UP>;
+};
+macro_prompter_down: macro_prompter_down{
+compatible = "zmk,behavior-macro";
+label = "macro_prompter_down";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>, <&kp PAGE_DOWN>;
+};
 macro_spotlight: macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_spotlight";
